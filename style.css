@@ -132,13 +132,13 @@ header {
 
 @media (max-width: 768px) {
     .about-container {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column!important;
+        text-align: center!important;
     }
 
     nav .nav-links {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: column!important;
+        gap: 10px!important;
     }
 }
 
@@ -232,23 +232,23 @@ header {
 
 .java {
     width: 90%;
-    background-color:rgb(23, 201, 133);
+    background-color:rgb(23, 201, 133)!important;
 }
 
 .javascript {
     width: 80%;
-    background-color: rgb(23, 201, 133);
+    background-color: rgb(23, 201, 133)!important;
 }
 
 .html {
     width: 85%;
-    background-color:rgb(23, 201, 133);
+    background-color:rgb(23, 201, 133)!important;
     
 }
 
 .css {
     width: 75%;
-    background-color:rgb(23, 201, 133);
+    background-color:rgb(23, 201, 133)!important;
 }
 .contact-section {
     width: 50%;
@@ -285,14 +285,14 @@ header {
 }
 
 footer {
-    background-color:#757474;
+    background-color:black;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
 .footer-content p {
-    margin: 0;
+    margin: 20px;
 }
 
 .footer-content .social-links {
